@@ -1,0 +1,137 @@
+html,body {
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-image: url("images/akan bg.png");
+    background-repeat: no-repeat;
+}
+.akan1{
+    font-family: Onyx;
+    font-size: 80px;
+    float: right;
+    color: white;
+}
+.img1{
+    margin: auto;
+}
+#kitesh{
+    margin-top: 50px;
+    padding-left: 50px;
+
+}
+#kitesh2{
+    margin-top: 30px;
+    color: white;
+    font-size: 17px;
+}
+.p1{
+    float: right;
+    text-align: right;
+}
+#btn1{
+    color: white;
+    border-color: white;
+    border-radius: 50px;
+    width: 90%;
+    margin: auto;
+    font-size: 20px;
+    border-width: 5px;
+    margin-top: 20px;
+}
+#btn2{
+    width: 100%;
+    border-width: 5px;
+    border-radius: 50px;
+    border-color: #FD5101;
+    margin-bottom: 100px;
+    color: #FD5101;
+    font-size: 17px;
+}
+
+#div2{
+    background-color: white;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+.form-label{
+    font-family: "Segoe UI";
+    color: #FD5101;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.form-control{
+    border-radius: 50px;
+    border-color: #FD5101;
+    border-width: 5px;
+    margin: 8px;
+}
+#check1{
+    margin-left: 10px;
+}
+
+
+
+
+/* styling for the big screen*/
+@media (min-width: 576px) {
+    #kitesh2{
+        margin-top: 20px;
+    }
+    .akan1{
+        font-size: 80px;
+    }
+    #btn1{
+        color: white;
+        border-color: white;
+        border-radius: 50px;
+        width: 40%;
+        margin: auto;
+        font-size: 20px;
+        border-width: 5px;
+        margin-top: 20px;
+
+    }
+    .p1{
+        float: right;
+        text-align: right;
+    }
+    .form-control{
+        width: 40%;
+        margin: auto;
+        margin-top: 8px;
+    }
+    .form-label{
+        text-align: center;
+        margin: auto;
+        width: 70%;
+        font-size: 20px;
+    }
+
+    #check1{
+        width: 40%;
+        margin-left: 390px;
+
+    }
+
+
+}
+
+/* styling for the tablet screen*/
+
+@media (min-width: 768px) {
+    #kitesh2{
+        margin-top: 100px;
+    }
+    .akan1{
+        font-size: 80px;
+    }
+
+
+
+}
+
+
+
+
